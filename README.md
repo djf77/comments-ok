@@ -2,7 +2,7 @@
 
 ## BaseURL
 
-http://8.129.238.142:5000/
+http://8.129.238.142/djf/static/travelpage.html
 
 ## 全局错误：
 
