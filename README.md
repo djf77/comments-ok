@@ -1,6 +1,6 @@
 # 留言板任务接口
 
-## BaseURL
+## 首页URL
 
 http://8.129.238.142/djf/static/travelpage.html
 
