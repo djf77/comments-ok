@@ -160,7 +160,7 @@ def change_username():
     # 判断用户名是否存在
     cursor.execute('select count(*) from `users` where id=%s', (session.get('user_id'), ))
     count = cursor.fetchone()[0]
-    if count >= 1:
+    if count >= 2:
         raise HttpError(400, 'username参数已存在')
 
     # 根据登录时储存的user_id在where子句中定位到具体的用户并更新他的用户名
